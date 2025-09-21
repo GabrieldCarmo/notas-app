@@ -35,5 +35,4 @@ router.delete("/api/clear", (req, res) => {
     });
 });
 
-
 module.exports = router;
