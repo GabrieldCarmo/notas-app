@@ -90,3 +90,39 @@ footer{
     background: var(--cor-secundaria);
     padding: 40px;
 }
+
+#card button {
+    background-color: var(--cor-principal);
+    color: var(--texto-color2);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 20px;
+    transition: background 0.3s;
+}
+
+#card button:hover {
+    background-color: #3a30c9; /* escurece ao passar o mouse */
+}
+
+#lista-notas {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+#lista-notas li {
+    background: #fff;
+    color: var(--texto-color);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid #999;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    word-wrap: break-word;
+}

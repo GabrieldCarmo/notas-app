@@ -1,11 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <title>GNotas - Notas</title>
 </head>
+
 <body>
-    
+    <header>
+        <nav>
+            <a href="../index.html">
+                <h1>GNotas</h1>
+            </a>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../pages/notas.html">Notas</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="card">
+        <h2>Minhas Notas</h2>
+        <ul id="lista-notas"></ul>
+        <button id="btn-add">Nova Nota</button>
+        <button id="btn-clear">Limpar Notas</button>
+
+    </section>
+
+    <footer>
+        <p>&copy;GNotas - Todos os direitos reservados</p>
+    </footer>
+
+    <script src="../scripts/notas.js"></script>
 </body>
+
 </html>
